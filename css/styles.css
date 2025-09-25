@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: hsl(0, 0%, 8%);
+	color: hsl(0, 0%, 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	line-height: 1.6;
+	height: 100vh;
+}
+
+main {
+	margin: auto;
+	width: 100%;
+	max-width: 375px;
+	padding: 20px;
+	text-align: center;
+	background-color: hsl(0, 0%, 12%);
+	border-radius: 8px;
+}
+
+section {
+	width: 100%;
+}
+
+figure {
+	margin: 20px 0;
+}
+
+img {
+	width: 40%;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	margin: 0.85rem 0 0 0;
+	font-size: 1.3rem;
+}
+
+span {
+	color: hsl(75, 94%, 57%);
+	font-weight: bold;
+}
+
+p {
+	margin: 0.2rem 0 1.7rem 0;
+	font-size: 0.9rem;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	font-size: 0.85rem;
+	font-weight: bold;
+	border: 1px solid hsl(0, 0%, 20%);
+	border-radius: 5px;
+	padding: 0.6rem;
+	margin: 0.1rem 0 0.7rem 0;
+	background-color: hsl(0, 0%, 20%);
+	color: hsl(0, 0%, 100%);
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: hsl(75, 94%, 57%);
+	color: hsl(0, 0%, 0%);
+}
+
+button:active {
+	cursor: progress;
+	background-color: hsl(0, 0%, 12%);
+	color: hsl(75, 94%, 57%);
+}
+
+footer {
+	height: 2rem;
+}
+
+footer p,
+footer span {
+	margin-top: 1rem;
+	font-size: 0.5rem;
+}
